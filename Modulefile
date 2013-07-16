@@ -1,5 +1,5 @@
 name    'scarcemedia/fping'
-version '1.0.0'
+version '0.0.1'
 source 'https://github.com/scarcemedia/puppet-imagemagick'
 author 'scarcemedia'
 license 'Apache License, Version 2.0'
