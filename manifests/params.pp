@@ -7,3 +7,4 @@ class imagemagick::params {
       fail("${::osfamily} is not supported")
     }
   }
+}
