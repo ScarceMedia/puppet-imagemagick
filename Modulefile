@@ -1,4 +1,4 @@
-name    'scarcemedia/fping'
+name    'scarcemedia/imagemagick'
 version '0.0.1'
 source 'https://github.com/scarcemedia/puppet-imagemagick'
 author 'scarcemedia'
