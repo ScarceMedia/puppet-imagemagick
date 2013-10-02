@@ -3,6 +3,9 @@ class imagemagick::params {
     'RedHat': {
       $packages = ['ImageMagick']
     }
+    'debian': {
+      $packages = ['imagemagick']
+    }
     default: {
       fail("${::osfamily} is not supported")
     }
