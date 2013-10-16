@@ -3,7 +3,7 @@ class imagemagick::params {
     'RedHat': {
       $packages = ['ImageMagick']
     }
-    'debian': {
+    'Debian': {
       $packages = ['imagemagick']
     }
     default: {
