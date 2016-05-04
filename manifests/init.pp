@@ -1,7 +1,8 @@
-class imagemagick {
-  include ::imagemagick::params
+# == Class: imagemagick
+#
+class imagemagick inherits imagemagick::params {
+  include imagemagick::install
+  include imagemagick::config
 
-  package {$::imagemagick::params::packages:
-    ensure => installed
-  }
+  Class['imagemagick::install'] -> Class['imagemagick::config']
 }
